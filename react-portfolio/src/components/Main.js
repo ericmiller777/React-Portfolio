@@ -20,7 +20,7 @@ class Main extends React.Component {
           <p>Project Match is a web app created with the MERN stack with typescript integration. It’s primary function is to help programmers and designers match with projects they would be interested in. Project Match will then provide team collaboration tools to support new teams with features such as a dedicated platform for mockup reviews/redlines and group chat.</p>
           <a href="https://ericmiller777.github.io/Markdown_Previewer_freeCodeCamp/" target="_blank"><span className="image main"><img src={markdownScreenshot} alt="Markdown Previewer" /></span></a>
           <h3>Markdown Previewer</h3>
-          <p>A simplisted responsive React app to preview GitHub Flavored Markdown</p>
+          <p>A simplistic responsive React app to preview GitHub Flavored Markdown</p>
           {close}
         </article>
 
@@ -44,6 +44,7 @@ class Main extends React.Component {
           <p>poop</p>
           <ul className="icons">
             <li><a href="https://github.com/ericmiller777" target="_blank" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://www.linkedin.com/in/ericmiller1990/" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
             <li><a href="mailto:eric@ericmiller.io" className="icon fa-envelope-o"><span className="label">Email</span></a></li>
             <li><a href="https://twitter.com/EricMiller777" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
             <li><a href="https://www.freecodecamp.org/ericmiller777" target="_blank" className="icon fa-free-code-camp"><span className="label">freeCodeCamp</span></a></li>
