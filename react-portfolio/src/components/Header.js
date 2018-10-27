@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import picture from '../images/0.jpg';
+import picture from '../images/0.jpg'
+import logo from '../images/logo.svg'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
@@ -10,7 +11,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Eric Miller</h1>
-                <p>My name is Eric Miller, I am a front end engineer with experience in, React, JavaScript, jQuery, Bootstrap, Sass, HTML5, and CSS3,<br /> I have a front end certification from freeCodeCamp(<a href='https://www.freecodecamp.org/certification/ericmiller777/legacy-front-end'>Here</a>), below are links to some of the projects I have worked on.</p>
+                <p>My name is Eric Miller, I am a front end engineer with experience in, React<img src={logo} className="App-logo-mini" alt="logo" />, JavaScript, jQuery, Bootstrap, Sass, HTML5, and CSS3,<br /> I have a front end certification from freeCodeCamp(<a href='https://www.freecodecamp.org/certification/ericmiller777/legacy-front-end'>Here</a>), below are links to some of the projects I have worked on.</p>
             </div>
         </div>
         <nav>

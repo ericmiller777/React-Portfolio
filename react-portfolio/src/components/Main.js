@@ -21,14 +21,13 @@ class Main extends React.Component {
           <a href="https://ericmiller777.github.io/Markdown_Previewer_freeCodeCamp/" target="_blank"><span className="image main"><img src={markdownScreenshot} alt="Markdown Previewer" /></span></a>
           <h3>Markdown Previewer</h3>
           <p>A simplistic responsive React app to preview GitHub Flavored Markdown</p>
+          <p><b>The website you are currently viewing was built using React and Gatsby.</b></p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
           {close}
         </article>
 
@@ -41,7 +40,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <p>poop</p>
+          <p>Feel free to contact me any time.</p>
           <ul className="icons">
             <li><a href="https://github.com/ericmiller777" target="_blank" className="icon fa-github"><span className="label">GitHub</span></a></li>
             <li><a href="https://www.linkedin.com/in/ericmiller1990/" target="_blank" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
